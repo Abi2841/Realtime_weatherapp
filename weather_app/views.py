@@ -12,7 +12,7 @@ def index(request):
         city = request.POST['city']
 
         source = urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q=' +
-                                        city + '&units=metric&appid=ade0f2ae5a302c38983ca893d21acaff').read()
+                                        city + '&units=metric&appid=your_api_id').read()
         list_of_data = json.loads(source)
 
         data = {
