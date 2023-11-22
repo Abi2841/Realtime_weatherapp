@@ -17,3 +17,5 @@ python manage.py runserver
 Then, open a web browser and go to `http://localhost:8000/` to access the app.
 
 Note: You'll need to sign up for an OpenWeatherMap API key to use this app. Replace the value of `appid` in the URL in `views.py` with your own API key.
+
+Thanks everyone!!!
